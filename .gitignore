@@ -6,5 +6,5 @@ atom.symlink/compile-cache/
 atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
-
+vim/vim.symlink/bundle/*/
 git/gitconfig.local.symlink
