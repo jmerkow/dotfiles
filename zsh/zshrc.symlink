@@ -57,7 +57,7 @@ plugins=(gitfast common-aliases sublime virtualenvwrapper cp thefuck)
   export PATH="/usr/local/texlive/2014/bin/x86_64-linux:/usr/local/eclipse/:/usr/local/MATLAB/R2014b/bin:/usr/local/texlive/2014/bin/x86_64-linux:/usr/local/eclipse/:/usr/local/MATLAB/R2014b/bin:/usr/local/texlive/2014/bin/x86_64-linux:/usr/local/eclipse/:/usr/local/MATLAB/R2014b/bin:/usr/local/texlive/2014/bin/x86_64-linux:/usr/local/eclipse/:/usr/local/MATLAB/R2014b/bin:/usr/local/texlive/2014/bin/x86_64-linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-source $DOTFILES/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
 export AUTOSUGGESTION_HIGHLIGHT_COLOR='fg7'
 
