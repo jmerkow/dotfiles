@@ -3,5 +3,9 @@
 # Run all dotfiles installers.
 
 set -e
-
-git clone git://github.com/jmerkow/oh-my-zsh.git ~/.oh-my-zsh
+export OHMYZSH=$HOME/.oh-my-zsh
+if [ ! -d "$OHMYZSH" ]; then
+     git clone git://github.com/jmerkow/oh-my-zsh.git $OHMYZSH
+else
+    echo $OHMYZSH already exists.
+fi
