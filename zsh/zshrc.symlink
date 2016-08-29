@@ -111,3 +111,7 @@ if [ -n "$PATH" ]; then
   PATH=${PATH#:}
   unset old_PATH x
 fi
+
+if [ -f ~/.localrc ]; then
+    source ~/.localrc
+fi
